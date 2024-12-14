@@ -1,0 +1,195 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: blue;
+    text-align: center;
+}
+
+input, select, button {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(43, 76, 223, 0.862);
+    height: 1100px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Goal List Styling */
+#goalList {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.goal-item {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.goal-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.goal-item.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+/* Category Badges */
+.category-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.work {
+    background-color: #28a745; /* Green for Work */
+}
+
+.study {
+    background-color: #17a2b8; /* Blue for Study */
+}
+
+.other {
+    background-color: #ffc107; /* Yellow for Personal */
+}
+
+/* Action Buttons (✅ and 🗑️) */
+.actions button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: color 0.3s ease;
+}
+
+.actions button:hover {
+    color: #dc3545;
+}
+
+.actions button:first-child:hover {
+    color: blue;
+}
+
+/* Sort Buttons */
+.sort-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.sort-buttons button {
+    background-color: blue;
+    margin: 0 5px;
+}
+
+.sort-buttons button:hover {
+    background-color: lightskyblue;
+}
+
+/* Success and Alert Popups (Optional Styling) */
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.alert.success {
+    background-color: blue;
+}
+
+.alert.error {
+    background-color: #dc3545;
+}
+
+/* Media Queries for Mobile Optimization */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input, select, button {
+        width: 100%;
+    }
+
+    #goalList {
+        max-width: 100%;
+    }
+
+    .goal-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .goal-item button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
