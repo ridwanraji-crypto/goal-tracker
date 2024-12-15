@@ -3,32 +3,32 @@
 Goal Tracker is a web-based application that allows users to efficiently track, manage, and sort their goals. It includes functionalities to add, complete, delete, and sort tasks, ensuring a clean and intuitive user experience.
 Features
 
-    **Add a Goal**
+1. Add a Goal**
         Users can add goals by entering:
             Goal Description
             Category: Work, Study, or Personal
             Date and Time
         Goals are displayed in a clean, organized list with relevant details.
 
-    Mark Goals as Complete
+2.    Mark Goals as Complete
         Goals can be marked as complete manually using the ✅ button.
         Tasks are automatically marked as complete when the scheduled date and time pass.
 
-    Delete Goals
+3.    Delete Goals
         Users can delete goals using the 🗑️ button.
 
-    Sort Goals
+4.    Sort Goals
         Sort By Priority: Organizes tasks by category (Work > Study > Personal).
         Sort By Due Date: Organizes tasks by their due date and time.
 
-    Dynamic User Interface
+5.    Dynamic User Interface
         Category badges (color-coded) for quick identification:
             Work → Green
             Study → Blue
             Personal → Yellow
         Hover effects, task cards, and clean styling ensure an enhanced user experience.
 
-    Responsive Design
+6.    Responsive Design
         The layout is optimized for various screen sizes, ensuring accessibility on all devices.
 
 Technologies Used
@@ -98,6 +98,6 @@ For any questions or feedback, please reach out:
 
     ## Author
 
-- **Name**: [Your Name]  
-- **Contact**: [your.email@example.com]  
-- **GitHub**: [https://github.com/username](https://github.com/username)
+- **Name**: [Ridwan]  
+- **Contact**: [ridwanraji27@gmil.com]  
+- **GitHub**: [https://github.com/ridwanraji-crypto/goal-tracker](https://github.com/username)
